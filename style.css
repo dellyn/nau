@@ -118,3 +118,14 @@ a:hover {
   color: white;
   transition: all 0.2s ease-in;
 }
+@media screen and (max-width: 900px) {
+  .logo {
+    width: 180px;
+    margin-top: -95px;
+  }
+  section {
+    width: 95%;
+    height: 85%;
+    box-sizing: border-box;
+  }
+}
